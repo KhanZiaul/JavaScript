@@ -1,4 +1,4 @@
-// 
+// check file name
 
 
 function javaScriptFile(fileName){
