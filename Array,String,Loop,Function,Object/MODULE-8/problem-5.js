@@ -1,12 +1,14 @@
 // radian to degree
 
-function radianToDegree(value){
+function radianToDegree(radian){
 
-    let radianToDegree = value * 57.2958;
+    let PI = 3.1416;
+
+    let radianToDegree = (radian * (180/PI));
 
     return radianToDegree ;
 }
 
 let radianToDegreeIs = radianToDegree(10).toFixed(2);
 
-console.log(radianToDegreeIs)
+console.log(radianToDegreeIs , 'degree');
