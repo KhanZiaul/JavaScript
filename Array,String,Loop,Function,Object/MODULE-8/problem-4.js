@@ -12,7 +12,7 @@ function friends(name1 , name2){
             nameInReverse = nameInReverse + name1[i];
         }
 
-        console.log(nameInReverse);
+        return nameInReverse;
     }
     else if(name2.length > name1.length){
 
@@ -23,10 +23,10 @@ function friends(name1 , name2){
             nameInReverse = nameInReverse + name2[i];
         }
 
-        console.log(nameInReverse);
+      return nameInReverse;
     }
 }
 
-friends('zia', 'megha');
+let reverseNameIs = friends('zia', 'megha');
 
-//console.log(reverseNameIs);
+console.log(reverseNameIs);
