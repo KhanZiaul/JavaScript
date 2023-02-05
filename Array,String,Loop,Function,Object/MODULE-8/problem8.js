@@ -1,8 +1,7 @@
 // public bus fare
 
 function publicBusFare(public){
-
-if(public !== 'number' || public < 50){
+if(typeof public !== 'number' || public < 50){
 
     console.log("provide valid participants");
 }
@@ -38,4 +37,4 @@ else if (public >= 11 && public < 50 && 11 % public !== 0 ){
 
 }
 
-publicBusFare('auhax');
+publicBusFare(365);
