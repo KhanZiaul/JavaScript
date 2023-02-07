@@ -1,6 +1,5 @@
 // find the matching product by searching 
 
-
 let ids = [
 
     {id: 1, name : 'khan zia' , home : 'Barishal'},
@@ -18,7 +17,7 @@ let ids = [
     {id: 7, name : 'barek' , home : 'DhakA'}
 ];
 
-// use for of for show ids---------->
+// use (for of) loop to show ids --------------->
 
 // for(let id of ids){
 
