@@ -1,4 +1,8 @@
-// introduction : 1 --------------->
+
+// DOM - Document Object Model ><><><><><><><><><><><><><><><><><><><
+
+
+// introduction : 1 [getElementsByTagName] --------------------------------------------------------------------->
 
 
 // const liElements = document.getElementsByTagName('li');
@@ -11,7 +15,7 @@
 // }
 
 
-// introduction : 2 --------------->
+// introduction : 2 [getElementById] and [getElementsByClassName] ------------------------------------------------------------------>
 
 // const fruits = document.getElementById('fruits');
 
@@ -26,21 +30,24 @@
 //     console.log(lists.innerText);
 // }
 
-// introduction : 3 --------------->
+// introduction : 3 [querySelector] and [querySelectorAll]- ------------------------------------------------------------->
 
-const habit = document.querySelectorAll('.habit');
+// const habit = document.querySelectorAll('.habit');
 
-console.log(habit);
+// console.log(habit);
 
-for(const habits of habit){
+// for(const habits of habit){
     
-    console.log(habits.innerText);
-}
+//     console.log(habits.innerText);
+// }
 
-const habits = document.querySelector('.habit');
+// const habits = document.querySelector('.habit');
 
-console.log(habits);
+// console.log(habits);
 
-const hobby = document.querySelector('#habits');
+// const hobby = document.querySelector('#habits');
 
-console.log(hobby);
+// console.log(hobby);
+
+
+// introduction : 4 --------------->
