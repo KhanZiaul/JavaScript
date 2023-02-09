@@ -25,3 +25,22 @@
 
 //     console.log(lists.innerText);
 // }
+
+// introduction : 3 --------------->
+
+const habit = document.querySelectorAll('.habit');
+
+console.log(habit);
+
+for(const habits of habit){
+    
+    console.log(habits.innerText);
+}
+
+const habits = document.querySelector('.habit');
+
+console.log(habits);
+
+const hobby = document.querySelector('#habits');
+
+console.log(hobby);
