@@ -1,8 +1,27 @@
-const liElements = document.getElementsByTagName('li');
+// introduction : 1 --------------->
 
-// console.log(liElements);
 
-for(const li of liElements){
+// const liElements = document.getElementsByTagName('li');
 
-    console.log(li.innerText);
-}
+// // console.log(liElements);
+
+// for(const li of liElements){
+
+//     console.log(li.innerText);
+// }
+
+
+// introduction : 2 --------------->
+
+// const fruits = document.getElementById('fruits');
+
+// // console.log(fruits);
+
+// console.log(fruits.innerText);
+
+// const fruit = document.getElementsByClassName('fruit');
+
+// for(const lists of fruit){
+
+//     console.log(lists.innerText);
+// }
