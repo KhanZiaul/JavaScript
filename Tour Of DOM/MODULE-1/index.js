@@ -50,4 +50,26 @@
 // console.log(hobby);
 
 
-// introduction : 4 --------------->
+// introduction : 4 [style] , [getAttribute] , [setAttribute] , [innerText] , [innerHTML] ------------------------------------>
+
+const colors = document.getElementById('style-me');
+
+colors.style.color = 'red';
+
+const co = document.getElementById('inner-html');
+
+// console.log(co.classList);
+
+// console.log(co.getAttribute('class'));
+
+co.setAttribute('class','class-3');
+
+console.log(co.getAttribute('class'));
+
+co.classList.add('new-class');
+
+console.log(co.classList);
+
+co.classList.remove('new-class');
+
+console.log(co.classList);
