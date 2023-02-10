@@ -58,3 +58,8 @@ document.getElementById('input-text').addEventListener('blur',function(){
 
     console.log('input blur');
 });
+
+document.getElementById('input-text').addEventListener('focus',function(){
+
+    console.log('input focus');
+});
