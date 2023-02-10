@@ -63,3 +63,18 @@ document.getElementById('input-text').addEventListener('focus',function(){
 
     console.log('input focus');
 });
+
+document.getElementById('input-text').addEventListener('keypress',function(k){
+
+    console.log(k.target.value);
+});
+
+document.getElementById('input-text').addEventListener('keydown',function(k){
+
+    console.log(k.target.value);
+});
+
+document.getElementById('input-text').addEventListener('keyup',function(k){
+
+    console.log(k.target.value);
+});
