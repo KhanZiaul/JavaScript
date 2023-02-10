@@ -53,3 +53,8 @@ document.getElementById('button').addEventListener('mouseenter',function(){
 
     console.log('Mouse Entered');
 });
+
+document.getElementById('input-text').addEventListener('blur',function(){
+
+    console.log('input blur');
+});
