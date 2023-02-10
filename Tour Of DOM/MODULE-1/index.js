@@ -74,14 +74,54 @@
 
 // console.log(co.classList);
 
-const sections = document.querySelectorAll('section');
+//--------------------------------------------------------------
+
+// const sections = document.querySelectorAll('section');
 
 
-for(const section of sections){
+// for(const section of sections){
 
-    section.style.border = '2px solid black';
+//     section.style.border = '2px solid black';
 
-    section.style.marginBottom = '10px';
+//     section.style.marginBottom = '10px';
 
-    section.style.padding = '20px';
-}
+//     section.style.padding = '20px';
+// }
+
+
+// introduction : 5 [nodeList] , [parentNode] , [createElement] , [nextSibling] , [previousSilbling] ----------------------------------------------------------------->
+
+// const child = document.getElementById('child');
+
+// // console.log(child.childNodes);
+
+// // console.log(child.firstChild);
+
+// // console.log(child.childNodes[0]);
+
+// // console.log(child.childNodes[3].childNodes[3]);
+
+// // console.log(child.childNodes[3].childNodes[2].nextSibling);
+
+// // console.log(child.childNodes[3].childNodes[2].previousSibling);
+
+// const li = document.querySelectorAll('#child li');
+
+
+// // li.forEach(element => {
+
+// //     console.log(element.innerText);
+// // });
+
+// const ul = document.querySelector('#child ul');
+
+// const list = document.createElement('li');
+
+// list.innerText= 'i am new';
+
+// console.log(list);
+
+// ul.appendChild(list);
+
+// console.log(ul.parentNode.parentNode.parentNode.parentNode)
+
