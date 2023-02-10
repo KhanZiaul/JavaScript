@@ -44,37 +44,37 @@ document.getElementById('makePink').addEventListener('click',function(){
 
 // More events --------------------------------->
 
-document.getElementById('button').addEventListener('mousemove',function(){
+// document.getElementById('button').addEventListener('mousemove',function(){
 
-    console.log('Mouse Moved');
-});
+//     console.log('Mouse Moved');
+// });
 
-document.getElementById('button').addEventListener('mouseenter',function(){
+// document.getElementById('button').addEventListener('mouseenter',function(){
 
-    console.log('Mouse Entered');
-});
+//     console.log('Mouse Entered');
+// });
 
-document.getElementById('input-text').addEventListener('blur',function(){
+// document.getElementById('input-text').addEventListener('blur',function(){
 
-    console.log('input blur');
-});
+//     console.log('input blur');
+// });
 
-document.getElementById('input-text').addEventListener('focus',function(){
+// document.getElementById('input-text').addEventListener('focus',function(){
 
-    console.log('input focus');
-});
+//     console.log('input focus');
+// });
 
-document.getElementById('input-text').addEventListener('keypress',function(k){
+// document.getElementById('input-text').addEventListener('keypress',function(k){
 
-    console.log(k.target.value);
-});
+//     console.log(k.target.value);
+// });
 
-document.getElementById('input-text').addEventListener('keydown',function(k){
+// document.getElementById('input-text').addEventListener('keydown',function(k){
 
-    console.log(k.target.value);
-});
+//     console.log(k.target.value);
+// });
 
-document.getElementById('input-text').addEventListener('keyup',function(k){
+// document.getElementById('input-text').addEventListener('keyup',function(k){
 
-    console.log(k.target.value);
-});
+//     console.log(k.target.value);
+// });
