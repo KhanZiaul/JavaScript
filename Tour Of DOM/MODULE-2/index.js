@@ -35,4 +35,9 @@ makeBlueButton.onclick = function makePurple(){
     document.body.style.backgroundColor = 'purple';
 }
 
-// option-4 : 
+// option-4 : addEventListener --------------->
+
+document.getElementById('makePink').addEventListener('click',function(){
+
+    document.body.style.backgroundColor = 'pink';
+});
