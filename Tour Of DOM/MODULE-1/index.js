@@ -125,3 +125,67 @@
 
 // console.log(ul.parentNode.parentNode.parentNode.parentNode)
 
+// add full new section-------------------->
+
+// const child = document.getElementById('child');
+
+// const section = document.createElement('section');
+
+// const header = document.createElement('h2');
+
+// const text = document.createElement('p');
+
+// const ul = document.createElement('ul');
+
+// const li1 = document.createElement('li');
+
+// const li2 = document.createElement('li');
+
+// const li3 = document.createElement('li');
+
+// header.innerText = 'This is title JS';
+
+// li1.innerText = 'Me - 1';
+
+// li2.innerText = 'Me - 2';
+
+// li3.innerText = 'Me - 3';
+
+// text.innerText = 'this is text made by javaScript';
+
+
+
+// child.appendChild(section);
+
+// section.appendChild(header);
+
+// section.appendChild(text);
+
+// section.appendChild(ul);
+
+// ul.appendChild(li1);
+
+// ul.appendChild(li2);
+
+// ul.appendChild(li3);
+
+// anothe way
+
+const child = document.getElementById('child');
+
+const section = document.createElement('section');
+
+section.innerHTML = `
+
+<h2> THIS IS TITLE </h2>
+
+<p>this is title </p>
+
+<ul>
+    <li> one </li>
+    <li> two </li>
+    <li> three </li>
+</ul>
+`;
+
+child.appendChild(section);
