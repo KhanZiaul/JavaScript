@@ -52,24 +52,36 @@
 
 // introduction : 4 [style] , [getAttribute] , [setAttribute] , [innerText] , [innerHTML] ------------------------------------>
 
-const colors = document.getElementById('style-me');
+// const colors = document.getElementById('style-me');
 
-colors.style.color = 'red';
+// colors.style.color = 'red';
 
-const co = document.getElementById('inner-html');
+// const co = document.getElementById('inner-html');
 
 // console.log(co.classList);
 
 // console.log(co.getAttribute('class'));
 
-co.setAttribute('class','class-3');
+// co.setAttribute('class','class-3');
 
-console.log(co.getAttribute('class'));
+// console.log(co.getAttribute('class'));
 
-co.classList.add('new-class');
+// co.classList.add('new-class');
 
-console.log(co.classList);
+// console.log(co.classList);
 
-co.classList.remove('new-class');
+// co.classList.remove('new-class');
 
-console.log(co.classList);
+// console.log(co.classList);
+
+const sections = document.querySelectorAll('section');
+
+
+for(const section of sections){
+
+    section.style.border = '2px solid black';
+
+    section.style.marginBottom = '10px';
+
+    section.style.padding = '20px';
+}
