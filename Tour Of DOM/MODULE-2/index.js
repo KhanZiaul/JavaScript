@@ -48,3 +48,8 @@ document.getElementById('button').addEventListener('mousemove',function(){
 
     console.log('Mouse Moved');
 });
+
+document.getElementById('button').addEventListener('mouseenter',function(){
+
+    console.log('Mouse Entered');
+});
