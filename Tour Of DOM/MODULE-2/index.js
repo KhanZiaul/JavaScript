@@ -41,3 +41,10 @@ document.getElementById('makePink').addEventListener('click',function(){
 
     document.body.style.backgroundColor = 'pink';
 });
+
+// More events --------------------------------->
+
+document.getElementById('button').addEventListener('mousemove',function(){
+
+    console.log('Mouse Moved');
+});
