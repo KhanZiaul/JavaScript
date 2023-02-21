@@ -18,7 +18,7 @@ class Instructor{
 
         this.location = location;
     }
-};
+}
 
 const khanZia = new Instructor('Khan Zia','Barishal');
 
