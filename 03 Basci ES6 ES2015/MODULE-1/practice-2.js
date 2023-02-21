@@ -9,7 +9,9 @@ const scores = (score) =>{
         sum = sum +square;
     }
 
-    return sum;
+    const averageScore = sum / score.length;
+
+    return averageScore.toFixed(2);
 } 
 
 const averageScore = scores([10 , 20 , 30]);
