@@ -12,7 +12,23 @@ document.getElementById('showData').addEventListener('click',function(){
     .then(data => showData(data))
 });
 
+// function showData(data){
+
+//     console.log(data);
+// }
+
+// show data into html ----------- 
+
 function showData(data){
 
-    console.log(data);
+    const userName = document.getElementById('userinfo');
+
+    for (const user of data){
+
+        const li = document.createElement('li');
+
+        li.innerText = `${user.email}`;
+
+        userName.appendChild(li);
+    }
 }
