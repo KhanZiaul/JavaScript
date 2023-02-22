@@ -2,17 +2,54 @@
 
 // first example
 
-const information = {
+// const information = {
 
-    name :'khan zia',
+//     name :'khan zia',
 
-    age : 27,
+//     age : 27,
 
-    job : 'web developer'
+//     job : 'web developer'
+// }
+
+// const stringified = JSON.stringify(information);
+
+// console.log(information);
+
+// console.log(stringified);
+
+// second example
+
+const shop = {
+
+    shopName : 'Hudai',
+
+    street : 'Kochu Khet Ar Mukhe',
+
+    products : ['Benchon', 'GoldLeaf','Darbi'],
+
+    informationOwner : {
+
+        name : 'Gorib Ali',
+
+        phone : 090000000,
+
+        region: 'isalam',
+
+        country : 'Uganda'
+    },
+
+    isOpen : true,
+
+    isNew : false
+
 }
 
-const stringified = JSON.stringify(information);
+console.log(shop);
 
-console.log(information);
+const shopJSON = JSON.stringify(shop);
 
-console.log(stringified);
+console.log(shopJSON);
+
+const shopJSONObj = JSON.parse(shopJSON);
+
+console.log(shopJSONObj);
