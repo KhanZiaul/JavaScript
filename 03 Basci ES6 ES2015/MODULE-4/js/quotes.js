@@ -9,8 +9,8 @@ function showQuotes(quotes){
     
   const quotesBlock = document.getElementById('quotes');
 
-  quotesBlock.innerHTML = quotes.quote;
-  
+  quotesBlock.innerText = quotes.quote;
+
 }
 
 quotes();
