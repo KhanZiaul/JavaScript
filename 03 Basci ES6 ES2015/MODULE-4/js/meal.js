@@ -1,5 +1,7 @@
-const loadmeals = () => {
-    fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=fish')
+const loadmeals = (search) => {
+    const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`
+
+     fetch(url)
     .then(res => res.json())
     .then(mealdata => showData(mealdata))
 }
@@ -44,7 +46,10 @@ function showData(mealdata){
 
 document.getElementById('search-btn').addEventListener('click',function(){
 
-    const 
-});
+    const searchInput = document.getElementById('search-input').value;
 
-loadmeals();
+    loadmeals(searchInput);
+
+    console.log(searchInput);
+
+});
