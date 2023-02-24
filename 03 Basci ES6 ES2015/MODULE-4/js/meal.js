@@ -10,6 +10,8 @@ function showData(mealdata){
 
     const showMeal= document.getElementById('showMeal');
 
+    showMeal.innerHTML = '';
+
     const meals = mealdata.meals;
 
     meals.map((meal)=>{
@@ -50,6 +52,6 @@ document.getElementById('search-btn').addEventListener('click',function(){
 
     loadmeals(searchInput);
 
-    console.log(searchInput);
+    document.getElementById('search-input').value = "";
 
 });
