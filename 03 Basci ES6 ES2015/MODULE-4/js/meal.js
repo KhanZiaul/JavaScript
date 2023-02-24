@@ -57,5 +57,16 @@ document.getElementById('search-btn').addEventListener('click',function(){
 
 const mealDetails = (idMeal) =>{
 
-    console.log(idMeal);
+    const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${idMeal}`
+    fetch(url)
+   .then(res => res.json())
+   .then(details => mealData(details))
 };
+
+function mealData(details){
+
+document.getElementById('area').innerText = details.meals[0].strArea;
+
+document.getElementById('procedure').innerText = details.meals[0].strInstructions;
+
+}
