@@ -61,6 +61,9 @@ const mealDetails = (idMeal) =>{
     fetch(url)
    .then(res => res.json())
    .then(details => mealData(details))
+   .catch(error => {
+    console.log(error);
+   });
 };
 
 function mealData(details){
