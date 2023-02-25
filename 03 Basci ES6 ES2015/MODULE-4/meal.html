@@ -22,19 +22,49 @@
             <button id="search-btn" class="btn btn-outline btn-primary block">Button</button>
         </div>
 
-        <div class="card w-full bg-base-100 shadow-xl grid grid-cols-3 gap-10" id="showMeal">
+        <div>
+            <div class="card w-full bg-base-100 shadow-xl grid grid-cols-3 gap-10" id="showMeal">
+    
+            </div>
+
+            <div class="modal" id="my-modal-2">
+              <div class="modal-box">
+                <h3 class="font-bold text-lg" id="mealName"></h3>
+                <p>Area : <span id="area"></span></p>
+                <p>Procedure : <span id="procedure"></span></p>
+                <div class="modal-action">
+                 <a href="#" class="btn">Close</a>
+                </div>
+              </div>
+            </div>
 
         </div>
-    </section>
-        <div class="modal" id="my-modal-2">
-          <div class="modal-box">
-            <h3 class="font-bold text-lg" id="mealName"></h3>
-            <p>Area : <span id="area"></span></p>
-            <p>Procedure : <span id="procedure"></span></p>
-            <div class="modal-action">
-             <a href="#" class="btn">Close</a>
+
+
+        <div>
+
+            <div class="card w-full bg-base-100 shadow-xl grid grid-cols-3 gap-10" id="showOtherMeal">
+    
             </div>
-          </div>
+
+
+            <div class="modal" id="my-modal-1">
+              <div class="modal-box">
+                <h3 class="font-bold text-lg" id="mealName"></h3>
+                <p>Area : <span id="area"></span></p>
+                <p>Procedure : <span id="procedure"></span></p>
+                <div class="modal-action">
+                 <a href="#" class="btn">Close</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="w-[20%] mx-auto">
+            <button id="seeMore-btn" class="btn  btn-primary block w-[50%] my-10 hidden">See More</button>
+        </div>
+
+    </section>
 
     <script src="js/meal.js"></script>
 </body>
