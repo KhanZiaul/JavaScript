@@ -4,7 +4,7 @@ const region = (regionValue) =>{
 
     fetch(url)
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(data => showCountries(data))
 }
 
 function getSelectValue(){
@@ -12,4 +12,9 @@ function getSelectValue(){
     const regionValue = document.getElementById('region').value;
 
     region(regionValue);
+}
+
+function showCountries(data){
+
+    
 }
