@@ -16,9 +16,11 @@ function getSelectValue(){
 
 function showCountries(datas){
 
-    datas.map((data) => {
+    const country = document.getElementById('country');
 
-        const country = document.getElementById('country');
+    country.innerText = "";
+
+    datas.map((data) => {
 
         const createDiv = document.createElement('div');
 
