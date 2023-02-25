@@ -61,7 +61,7 @@ function showData(mealdata, limit) {
             <a onclick="mealDetails(${meal.idMeal})" href="#my-modal-2" class="btn">Details</a>   
 
               </div>
-              
+
             </div>
             `;
 
@@ -81,6 +81,10 @@ function showMore(){
         .then(res => res.json())
 
         .then(mealdata => showData(mealdata, 0))
+
+        const seeMorebtn = document.getElementById('seeMore-btn');
+
+        seeMorebtn.classList.add('hidden');
 }
 
 
