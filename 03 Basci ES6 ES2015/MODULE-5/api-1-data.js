@@ -49,5 +49,5 @@ persons.result.map((person) => {
   `;
 
   parentDiv.appendChild(childDiv);
+  
 });
-
