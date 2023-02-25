@@ -4,7 +4,7 @@ const region = (regionValue) =>{
 
     fetch(url)
     .then(res => res.json())
-    .then(data => showCountries(data))
+    .then(datas => showCountries(datas))
 }
 
 function getSelectValue(){
@@ -14,7 +14,26 @@ function getSelectValue(){
     region(regionValue);
 }
 
-function showCountries(data){
+function showCountries(datas){
 
-    
+    datas.map((data) => {
+
+        const country = document.getElementById('country');
+
+        const createDiv = document.createElement('div');
+
+        createDiv.innerHTML = `
+
+        <p class="mb-4 text-center text-xl font-bold"> ${data.name.common} </p>
+
+        <img src=" ${data.flags.png} " alt="no image" />
+
+        `;
+
+        country.appendChild(createDiv);
+
+        console.log(data);
+
+    })
+
 }

@@ -14,16 +14,26 @@
 
 <body>
 
-      <label for="region">Choose a region:</label>
-    <select onchange="getSelectValue()" class="w-[10%]" id="region">
-      <option class="option" value=""></option>
-     <option class="option" value="Africa">Africa</option>
-     <option value="Americas">Americas</option>
-     <option value="Asia">Asia</option>
-     <option value="Europe">Europe</option>
-     <option value="Oceania">Oceania</option>
-  </select>
+  <div class="bg-sky-500 w-[75%] rounded-xl mx-auto">
 
+  <div class="block w-[30%] mx-auto my-10 pt-10">
+    <label class="text-2xl font-bold text-white" for="region">Choose a region:</label>
+  <select onchange="getSelectValue()" class="w-[35%] rounded-xl" id="region">
+    <option class="option" value=""></option>
+   <option class="option" value="Africa">Africa</option>
+   <option value="Americas">Americas</option>
+   <option value="Asia">Asia</option>
+   <option value="Europe">Europe</option>
+   <option value="Oceania">Oceania</option>
+  </select>
+  </div>
+
+
+  <div class="grid grid-cols-4 gap-10 p-10" id="country">
+
+  </div>
+
+</div>
 
     <script src="api-2-data.js"></script>
 </body>
