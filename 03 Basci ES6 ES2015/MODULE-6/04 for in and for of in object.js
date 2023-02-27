@@ -22,7 +22,14 @@ const bottle = {
 
 // for in loop ---
 
-for(const key in bottle){
+// for(const key in bottle){
 
-    console.log(key,bottle[key])
+//     console.log(key,bottle[key])
+// }
+
+// advanced ---
+
+for(const [key,value] of Object.entries(bottle)){
+
+    console.log(key,value);
 }
