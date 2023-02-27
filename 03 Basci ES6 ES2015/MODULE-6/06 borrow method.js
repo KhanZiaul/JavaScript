@@ -24,11 +24,22 @@ const badamAli = {
 
     money: 7000
 }
+// borrow object by call
 
-const remaining = kodomAli.treatDay.call(badamAli,1000,500);
+const remainingFirst = kodomAli.treatDay.call(badamAli,1000,500);
 
-console.log(remaining);
+console.log(remainingFirst);
+
+// borrow object by apply
 
 const remainingTwo = kodomAli.treatDay.apply(badamAli,[1000,500]);
 
 console.log(remainingTwo);
+
+// borrow object by bind
+
+const remaining = kodomAli.treatDay.bind(badamAli);
+
+const remainingThree = remaining(1000,500);
+
+console.log(remainingThree);
