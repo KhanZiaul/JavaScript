@@ -22,9 +22,13 @@ const badamAli = {
 
     name:'badam',
 
-    money: 7000,
+    money: 7000
 }
 
 const remaining = kodomAli.treatDay.call(badamAli,1000,500);
 
 console.log(remaining);
+
+const remainingTwo = kodomAli.treatDay.apply(badamAli,[1000,500]);
+
+console.log(remainingTwo);
