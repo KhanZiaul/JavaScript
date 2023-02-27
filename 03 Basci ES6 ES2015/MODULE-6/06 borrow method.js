@@ -14,6 +14,17 @@ const kodomAli = {
     }
 }
 
-const remaining = kodomAli.treatDay(1000,50);
+// const remaining = kodomAli.treatDay(1000,50);
+
+// console.log(remaining);
+
+const badamAli = {
+
+    name:'badam',
+
+    money: 7000,
+}
+
+const remaining = kodomAli.treatDay.call(badamAli,1000,500);
 
 console.log(remaining);
