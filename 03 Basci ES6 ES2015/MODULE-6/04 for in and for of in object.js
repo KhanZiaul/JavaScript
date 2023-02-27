@@ -9,13 +9,20 @@ const bottle = {
     capacity : 1
 }
 
-// using for of loop
+// using for of loop -----
 
-const keys = Object.keys(bottle);
+// const keys = Object.keys(bottle);
 
-//console.log(keys);
+// //console.log(keys);
 
-for(const key of keys){
+// for(const key of keys){
 
-    console.log(key,bottle[key]);
+//     console.log(key,bottle[key]);
+// }
+
+// for in loop ---
+
+for(const key in bottle){
+
+    console.log(key,bottle[key])
 }
