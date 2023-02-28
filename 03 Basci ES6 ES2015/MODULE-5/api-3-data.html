@@ -10,6 +10,8 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <script src="https://kit.fontawesome.com/70a98cd510.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -23,8 +25,13 @@
 
     </div>
 
-    <div class="border-4  h-[100px] p-5">
+    <div class="border-4  h-[100px] p-5 flex items-center justify-between">
         <h2 class="text-3xl text-white">Short link here : <a class="link link-primary" id="shortLink" href=""><span id="linkHere"></span></a> </h2>
+
+        <div>
+           <h2 id="copy" onclick="myFunction()" class="cursor-pointer"> <i class="fa-solid fa-copy"></i> </h2>
+        </div>
+
         </div>
 
         </div>

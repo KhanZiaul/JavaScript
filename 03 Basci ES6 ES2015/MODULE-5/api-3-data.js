@@ -6,6 +6,16 @@ const linkShorter=(link) =>{
     .then(data => shortCode(data.result.short_link))
 }
 
+function myFunction() {
+
+    let copyText = document.getElementById("linkHere");
+  
+    navigator.clipboard.writeText(copyText.innerText);
+    
+    alert("Copied the text: " + copyText.innerText);
+    
+  }
+
 function shortCode(code){
 
    const attribute = document.getElementById('shortLink');
