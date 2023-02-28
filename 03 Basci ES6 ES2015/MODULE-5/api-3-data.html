@@ -5,8 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>api-3-data</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.1/dist/full.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
+
+    <div class="m-10 w-[50%] border-2 p-8 mx-auto bg-sky-500 rounded-xl">
+
+    <div class="flex gap-6 mb-5 w-[80%] mx-auto">
+
+        <input id="input-link" type="text" placeholder="Type here" class="input input-bordered input-accent w-full max-w-xs block" />
+
+        <button id="button" class="btn btn-primary block">Button</button>
+
+    </div>
+
+    <div class="border-4  h-[100px] p-5">
+        <h2 class="text-3xl text-white">Short link here : <a class="link link-primary" id="shortLink" href=""><span id="linkHere"></span></a> </h2>
+        </div>
+
+        </div>
+
+    <script src="api-3-data.js"></script>
     
 </body>
 </html>
