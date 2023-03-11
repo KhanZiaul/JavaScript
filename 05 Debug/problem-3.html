@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problem-3</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.0/dist/full.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body onload="onloadData()">
+
+    <div class="grid grid-col-1 gap-5 items-center justify-center bg-sky-100 my-5 w-[75%] mx-auto p-5 rounded-xl">
+        
+        <div class="flex gap-5 items-center justify-center bg-sky-500 my-4  mx-auto p-10 rounded-xl w-full">
+    
+            <input id="inputName" type="text" placeholder="Type Name" class="input input-ghost w-full bg-white" />
+            
+            <button onclick="addName()" class="block btn btn-secondary px-6">Sent Name</button>
+
+            <button onclick="deleteName()" class="block btn btn-secondary px-6">Delete Name</button>
+         </div>
+
+        <div class="flex gap-5 items-center justify-center bg-sky-500 my-4  mx-auto p-10 rounded-xl w-full">
+    
+            <input id="inputEmail" type="text" placeholder="Type Email" class="input input-ghost w-full bg-white" />
+            
+            <button onclick="addEmail()" class="block btn btn-secondary px-6">Sent Email</button>
+
+            <button onclick="deleteEmail()" class="block btn btn-secondary px-6">Delete Email</button>
+         </div>
+
+
+        <div class="flex gap-5 items-center justify-center bg-sky-500 my-4  mx-auto p-10 rounded-xl w-full">
+    
+            <input id="inputMessage" type="text" placeholder="Type Message" class="input input-ghost w-full bg-white" />
+            
+            <button onclick="addMessage()" class="block btn btn-secondary px-6">Sent Message</button>
+
+            <button onclick="deleteMessage()" class="block btn btn-secondary px-6">Delete Message</button>
+         </div>
+         
+         <button onclick="send()" class="block btn btn-secondary px-6">Sent</button>
+
+         <button onclick="reset()" class="block btn btn-secondary px-6">Reset</button>
+
+
+    </div>
+  
+    <script src="problem-3.js"></script>
+</body>
+</html>
