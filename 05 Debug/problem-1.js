@@ -1,14 +1,15 @@
-let i = 0;
+const paragraph = document.getElementById('paragraph');
 
 function addValue(){
 
-    const paragraph = document.getElementById('paragraph');
+    paragraph.innerText = parseInt(paragraph.innerText) + 1;
 
-    i++;
+    localStorage.setItem('number',paragraph.innerText )
 
-    paragraph.innerText = i ;
+}
 
-    localStorage.setItem(`paragraph-${i}`, i)
+window.onload = () =>{ 
 
+    paragraph.innerText = localStorage.getItem('number');
 }
 
