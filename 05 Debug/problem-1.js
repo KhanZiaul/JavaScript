@@ -12,4 +12,3 @@ window.onload = () =>{
 
     paragraph.innerText = localStorage.getItem('number');
 }
-
