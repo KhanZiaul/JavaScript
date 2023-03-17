@@ -17,11 +17,6 @@ let index = 0;
 
 setInterval(()=>{
 
-    console.log(index);
-
-    console.log(imagesIndex.length);
-
-
     if(index === imagesIndex.length){
 
         index = 0 ;
